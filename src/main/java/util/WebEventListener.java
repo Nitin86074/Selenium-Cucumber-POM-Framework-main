@@ -11,7 +11,7 @@ import base.BasePage;
 public class WebEventListener extends BasePage implements WebDriverEventListener {
 
 	public void beforeNavigateTo(String url, WebDriver driver) {
-		System.out.println("Before navigating to: '" + url + "'");
+		System.out.println("Before navigating to this url: '" + url + "'");
 	}
 
 	public void afterNavigateTo(String url, WebDriver driver) {
